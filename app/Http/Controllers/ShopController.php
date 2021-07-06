@@ -9,7 +9,7 @@ class ShopController extends Controller
 {
     //
     function getData(){
-        return["name"=>"sara","email"=>"sarastikic@gmail.com","adresa"=>"Lole Ribara"];
+        return["name"=>"ana","email"=>"anajanovic@gmail.com","adresa"=>"Lole Ribara"];
     }
 
     function list(){
