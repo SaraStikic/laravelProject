@@ -13,8 +13,8 @@
              </div>
              <div class="col-sm-4">
                     <div class="">
-                      <h2>Ime: {{$item->name}}</h2>
-                      <h5>Delivery Status : {{$item->status}}</h5>
+                      <h3><b>Ime: {{$item->name}}</b></h3>
+                      <h5>Status dostave : {{$item->status}}</h5>
                       <h5>Adresa : {{$item->address}}</h5>
                       <h5>Status plaćanja : {{$item->payment_status}}</h5>
                       <h5>Metod plaćanja : {{$item->payment_method}}</h5>

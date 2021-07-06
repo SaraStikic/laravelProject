@@ -18,7 +18,7 @@
        <button class="btn btn-primary">Dodaj u korpu</button>
        </form>
        <br><br>
-       <button class="btn btn-success">Kupi</button>
+      <!-- <button class="btn btn-success">Kupi</button>-->
        <br><br>
     </div>
    </div>

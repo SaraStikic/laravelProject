@@ -34,7 +34,7 @@ class ProductController extends Controller
         {
             $cart= new Cart;
             $cart->product_id=$req->product_id;
-            $cart->user_id=$req->session()->get('user')['id'];
+           $cart->user_id=$req->session()->get('user')['id'];
             $cart->save();
             return redirect('/');
 

@@ -13,11 +13,13 @@ class UserController extends Controller
         if(!$user || !Hash::check($req->password,$user->password))
         {
             $req->session()->put('user',$user);
-            return redirect('/');
+            return 'Korisnik il sifra nisu validni!';
            
         }
         else{
-            return "Korisnik il sifra nisu validni!";
-        }
+            return redirect('/');
+       }
+       
+     
     }
 }

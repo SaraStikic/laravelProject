@@ -103,7 +103,20 @@ class ProductSeeder extends Seeder
                          "description"=>"Odbojkska lopta, izradjena od najkvalitetnijeg materijala, i tako je obezbedjena izuzetna cvrstina i izdrzljivost na udarce.",
                          "category"=>"lopta",
                          "gallery"=>"https://www.extrasports.com/files/thumbs/files/images/slike_proizvoda/thumbs_350/MVA390_350_350px.jpg"
-                      ]
+                      ],
+                      [
+                          'name'=>'Maratonci trče počasni krug',
+                          "price"=>"1000",
+                          "description"=>"Radnja je smeštena 1935. godine, posle atentata na kralja Aleksandra u Marseju, u maloj srpskoj palanci. ",
+                          "category"=>"film",
+                          "gallery"=>"https://upload.wikimedia.org/wikipedia/sr/7/7b/Maratonci.jpg"
+                       ]
+                       
+
+
+
+
+
         ]);
     }
 }
